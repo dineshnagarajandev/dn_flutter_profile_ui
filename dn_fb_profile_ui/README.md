@@ -1,16 +1,7 @@
-# dn_fb_profile_ui
+# Facebook Profile UI
 
-A new Flutter project.
+## Screenshot
+<img src="https://github.com/dineshnagarajandev/dn_flutter_profile_ui/blob/main/dn_fb_profile_ui/lib/screenshot/dn_fb_profile_ui_1.png" width="200">  <img src="https://github.com/dineshnagarajandev/dn_flutter_profile_ui/blob/main/dn_fb_profile_ui/lib/screenshot/dn_fb_profile_ui_2.png" width="200">  <img src="https://github.com/dineshnagarajandev/dn_flutter_profile_ui/blob/main/dn_fb_profile_ui/lib/screenshot/dn_fb_profile_ui_3.png" width="200">
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Video
+![dn_fb_profile_ui_video](https://github.com/dineshnagarajandev/dn_flutter_profile_ui/assets/3772209/130940c9-1349-43ef-9477-e343e4f8a523)
