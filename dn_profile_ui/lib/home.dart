@@ -1,6 +1,7 @@
 import 'package:dn_profile_ui/bookmyshow_profile_ui/bookmyshow_profile.dart';
 import 'package:dn_profile_ui/facebook_profile_ui/facebook_profile.dart';
 import 'package:dn_profile_ui/instagram_profile_ui/instagram_profile.dart';
+import 'package:dn_profile_ui/spotify_profile_ui/spotift_profile.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -11,7 +12,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var profileList = ["Facebook", "Instagram", "BookMyShow"];
+  var profileList = ["Facebook", "Instagram", "BookMyShow", "Spotify"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,6 +52,13 @@ class _MyHomePageState extends State<MyHomePage> {
                           Navigator.push(context,
                               MaterialPageRoute(builder: (context) {
                             return const BookMyShowProfileUI();
+                          }));
+                          break;
+                        case 3:
+                          // Spotify
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) {
+                            return const SpotifyProfile();
                           }));
                           break;
                         default:
